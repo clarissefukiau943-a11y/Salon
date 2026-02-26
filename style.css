@@ -9,7 +9,7 @@ body{
    background-color: rgba(0, 255, 242, 0.658);
     color:white;
     overflow-x:hidden;
-    background-image: url("images/salon-de-coiffure-homme.jpg");
+    background-image: url("salon-de-coiffure-homme.jpg");
 }
 
 /* Header */
@@ -45,7 +45,7 @@ nav a:hover{
 /* Hero */
 .hero{
     height:100vh;
-    background:url("images/salon-de-coiffure-luxueux-a-montpellier.jpg") center/cover;
+    background:url("salon-de-coiffure-luxueux-a-montpellier.jpg") center/cover;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -136,4 +136,5 @@ form input, select{
     header{
         flex-direction:column;
     }
+
 }
