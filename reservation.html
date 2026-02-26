@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Réservation Premium</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+<h1>Salon Élégance</h1>
+<nav>
+<a href="index.html">Accueil</a>
+<a href="services.html">Services</a>
+<a href="galerie.html">Galerie</a>
+<a href="reservation.html">Réservation</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<section class="section">
+<h2>Réservation & Paiement</h2>
+
+<form id="formulaire">
+
+<input type="text" id="nom" placeholder="Nom complet" required>
+<input type="tel" id="telephone" placeholder="Téléphone" required>
+
+<select id="service">
+<option value="Coupe Femme - 10$">Coupe Femme - 10$</option>
+<option value="Coupe Homme - 7$">Coupe Homme - 5$</option>
+<option value="Tresses - 15$">Tresses Femme - 30$</option>
+<option value="Tresses - 15$">Coupe enfants - 10$</option>
+</select>
+
+<input type="date" id="date" required>
+<input type="time" id="heure" required>
+
+<h3>Mode de Paiement</h3>
+
+<select id="paiement">
+<option value="Airtel Money">Airtel Money</option>
+<option value="Orange Money">Orange Money</option>
+<option value="M-Pesa">M-Pesa</option>
+</select>
+
+<input type="tel" id="numero" placeholder="Numéro Mobile Money" required>
+
+<button type="submit" class="btn">Payer & Générer Facture</button>
+
+</form>
+</section>
+
+</body>
+</html>
